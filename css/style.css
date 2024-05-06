@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: white;
+    padding: 8px 16px;
+    display: flex;  /* changes begins here in this section */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  section {
+    height: 400px;
+    background-color: black;
+    color: white;
+    padding: 24px 72px;
+    display: flex;                       /* changes begins here in this section */
+   flex-direction: column;  
+    justify-content:space-around;
+    align-items: center;
+    
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  input {
+    height: 58px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 29px;
+    border: 0px;
+    padding: 0 24px;
+  }
+  
+  main {
+    background-color: white;
+    padding: 32px 72px;
+    display: flex;  /* changes begins here in this section */
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  nav button {
+    background-color: #ea4c89;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .img-placeholder {
+    width: 355px;
+    height: 270px;
+    background-color: gray;
+    border-radius: 8px;
+  }
+  
+  .card-footer {
+    font-size: 14px;
+    display: flex;    /* changes begins here in this section */
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .card-footer * {
+    margin-top: 8px; 
+  }
+  
+  #subnav {
+    padding: 32px 72px 0;
+    background-color: white;
+    display: flex;                       /* changes begins here in this section */     
+    justify-content: space-between;
+  }
+  
+  #subnav button {
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  
+  /*////////////////////*/
+
+  #actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #destinations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  #headers {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#trending p {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 6px 15px;
+}
+
+#trending {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+#subnav {
+  padding: 3px 12px 2px;
+  border: #ea4c89;
+  border-color: #ea4c89;
+  background-color: rgb(235, 168, 168);
+  display: flex;
+  justify-content: space-between;
+}
+
+#subnav button {
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+
+/* Refrenced https://flexbox.malven.co/  and https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  worked with Megan Mashburn, Azalea Topaz
+*/
